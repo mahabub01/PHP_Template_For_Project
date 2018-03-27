@@ -1,0 +1,26 @@
+//if you change website url go to config folder open appsconfig page then change URL constant value
+
+//if you load css/js/image file using appsConfig::URL() method into file location and file name;
+
+
+//if you dymanic your section using appsConfig::renderBody() method
+
+//if you link any button using appsConfig::URL() method into your page location
+example : appsConfig::URL('/home') if your home page into apps/public folder then run your page or show page not found message.
+
+//if your link delete/edit/details page use appsConfig::Link() method 
+
+//if you make dynamic page title when you create your page than _ into your page name example :Create_Country.php 
+
+//if you change your database name host username password go to systems/libs/DBConnection.php page and change it.
+
+//if you data insert/select/delete/edit from webpage you use systems/libs/DBContext.php page. you make object from DBContext class and use some method from this class.
+
+//if you want form validation goto systems/libs/validation.php page and use Validation Class
+
+//if you want login/registration system go to systems/libs/session.php page and use Session Class;
+
+
+
+
+
